@@ -5,7 +5,7 @@ import {Stack} from 'expo-router'
 const rootLayout = () => {
   return (
 <Stack>
-<Stack.Screen name="index" options={{showLOL: false}} />
+<Stack.Screen name="index" options={{headerShown: false}} />
 </Stack>
   )
 }
